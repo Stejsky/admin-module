@@ -9,7 +9,7 @@ use Nette,
 /**
  * Homepage presenter.
  */
-class HomepagePresenter extends Nette\Application\UI\Presenter
+class HomepagePresenter extends BasePresenter
 {
 
     public function renderDefault()
